@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: violet;
+    text-align: center;
+    padding: 20px;
+}
+
+div {
+    margin: 20px;
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+    border: 2px solid violet;
+    border-radius: 5px;
+    margin: 5px;
+    color: violet; /* Set text color to violet */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightviolet;
+    color: violet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
